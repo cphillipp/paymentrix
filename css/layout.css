@@ -1669,6 +1669,7 @@ a.aToolTipCloseBtn {
 			#advanced ul ul ul li a {color:#939393;}
 
 /* CUSTOM */
-.block.custom{width:146px; height:211px;}
+.block.custom{width:146px; min-height:244px;}
 .block.custom h6{white-space:normal;}
+.block .padding img{width:80px;}
 .logo{width:207px; height:42px; background: url("../images/logo01.png") no-repeat scroll 0 0 transparent;}
