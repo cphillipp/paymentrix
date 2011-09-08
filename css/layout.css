@@ -1669,7 +1669,17 @@ a.aToolTipCloseBtn {
 			#advanced ul ul ul li a {color:#939393;}
 
 /* CUSTOM */
-.block.custom{width:146px; min-height:244px;}
-.block.custom h6{white-space:normal;}
-.block .padding img{width:80px;}
+.block.custom{width:146px;}
+.block.custom .padding{min-height:200px; position:relative;}
+.block.custom .padding h6{white-space:normal;}
+.block.custom .padding img{max-width:80px; max-height:90px;}
+.block.custom .padding .image{margin:0; padding:0; height:100px;}
+.block.custom .padding .image.gas{margin:0; padding:20px 0 0; height:80px;}
+.block.custom .padding .alignright{position:absolute; bottom:15px; right:22px;}
+.block.wrap .padding h6{white-space:normal;}
+.block.wrap .padding{min-height:200px; position:relative;}
+.block.wrap .padding .alignright{position:absolute; bottom:15px; right:22px;}
 .logo{width:207px; height:42px; background: url("../images/logo01.png") no-repeat scroll 0 0 transparent;}
+.custom table tbody td {padding:0 5px 5px 0; width:auto; background:transparent; text-align:left;}
+.custom table table tr:hover td {background-color:transparent;}
+.custom .backtop{padding:10px 0 20px;}
