@@ -1683,3 +1683,6 @@ a.aToolTipCloseBtn {
 .custom table tbody td {padding:0 5px 5px 0; width:auto; background:transparent; text-align:left;}
 .custom table table tr:hover td {background-color:transparent;}
 .custom .backtop{padding:10px 0 20px;}
+ul.left{overflow:hidden;}
+ul.left li{float:left;width:33%;}
+dl.contacts{width:auto;}
