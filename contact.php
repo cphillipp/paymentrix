@@ -88,7 +88,11 @@
                                 <label class="error" for="message" id="message_error2">*The message is too short.</label>
                             </div>                                
                             <div class="buttons-wrapper"><a id="submit" class="button">Send Message</a></div>
-							
+							<?php
+								if($display_message) {
+									echo "<a name='bottom' class='thank-you'>" . $display_message . "</a>";
+								}
+							?>
 							<input type="submit" class="" value="submit" />
                         </fieldset>
                     </form>
