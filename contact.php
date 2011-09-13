@@ -3,8 +3,8 @@
 <head>
 	<!-- <link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" /> -->
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/grid_24.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="all">
 	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
@@ -24,7 +24,7 @@
     <header>
         <div class="header-bg"></div>
         <div class="links">
-            <div class="main">Phone :  <span>+1 877 292 0521</span></div>
+            <div class="main">Toll-Free : <span>+1 877 292 0521</span></div>
         </div>
         <div class="main">
             <div class="navi">
@@ -34,7 +34,7 @@
                         <li><a href="pci.html">PCI</a></li>
                         <li><a href="rates.html">Rates</a></li>
                         <li><a href="partners.html">Partners</a></li>
-                        <li class="current"><a href="contact.html">Contacts</a></li>
+                        <li class="current"><a href="contact.php">Contacts</a></li>
                     </ul>
                 </nav>
                 <a class="logo" href="index.html">Mirage</a>
@@ -48,10 +48,10 @@
             <article class="grid_8 suffix_1">
                 <h3>How to Find Us</h3>
                 <dl class="contacts">
-                    <dd><span>Freephone:</span> +1 877 292 0521</dd>
+                    <dd><span>Toll-Free:</span> +1 877 292 0521</dd>
                     <dd><span>Telephone:</span> +1 208 495 3284 ext. 100</dd>
                     <dd><span>FAX:</span> +1 866 548 0686</dd>
-                    <dd><span>E-mail:</span> <a class="" href="mailto:clayphillipp@gmail.com">thedeansta@gmail.com</a></dd>
+                    <dd><span>E-mail:</span> <a class="" href="mailto:clayphillipp@gmail.com">info@paymentrix.com</a></dd>
 
                 </dl>
             </article>
@@ -102,7 +102,6 @@
     </section>
 </div>
 <!--==============================aside=================================-->
-
 <aside>
   <div class="aside"><div></div></div>
     <div class="main"></div>
@@ -110,31 +109,11 @@
     	<article class="grid_4">
         	<h6>Our Company</h6>
             <ul>
-
-            	<li><a href="#">About Us</a></li>
-            	<li><a href="#">Work Team</a></li>
-            	<li><a href="#">What We Do</a></li>
-            	<li><a href="#">Clients</a></li>
-            </ul>
-        </article>
-    	<article class="grid_4">
-
-        	<h6>Related Links</h6>
-            <ul>
-            	<li><a href="#">Recent Issues</a></li>
-            	<li><a href="#">FAQ</a></li>
-            	<li><a href="#">Solutions</a></li>
-            	<li><a href="#">Contacts</a></li>
-
-            </ul>
-        </article>
-    	<article class="grid_4 suffix_3">
-        	<h6>For Clients</h6>
-            <ul>
-            	<li><a href="#">Sign Up</a></li>
-            	<li><a href="#">Forum</a></li>
-
-            	<li><a href="#">Promotions</a></li>
+            	<li><a href="index.html">Home</a></li>
+            	<li><a href="pci.html">PCI</a></li>
+            	<li><a href="rates.html">Rates</a></li>
+            	<li><a href="partners.html">Partners</a></li>
+				<li><a href="contact.php">Contact</a></li>
             </ul>
         </article>
     </div>
