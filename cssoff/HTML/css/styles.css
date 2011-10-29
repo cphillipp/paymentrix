@@ -55,10 +55,10 @@ select:focus 																																												{outline:none;}
 /* 1. BASE ------------------------------------------------------------------------- */
 body																																																{background:#80c1d6 url('../images/blue-texture.png') repeat;}
 header																																															{margin:0; width:100%; height:713px; background:url('../images/header-slime.png') 40% top no-repeat;}
-header nav																																													{margin:0; padding:0; height:32px; background:rgba(15, 40, 48, 0.05); text-align:center;}
+header nav																																													{margin:0; padding:0; width:100%; height:32px; background:rgba(15, 40, 48, 0.05); text-align:center; position:fixed; top:0; left:0; z-index:1;}
 header nav p																																												{white-space:nowrap;}
-header nav p span																																										{margin:0 23px 0 28px; color:#fefefe; font-size:18px; line-height:32px; font-family:'Open Sans', sans-serif; text-transform:uppercase; cursor:pointer; opacity:1; -moz-transition-property:opacity; -moz-transition-duration:1s; -webkit-transition-property:opacity; -webkit-transition-duration:1s; -o-transition-property:opacity; -o-transition-duration:1s; transition-property:opacity; transition-duration:1s;}
-header nav p span:hover																																							{color:#0f2830; opacity:.6;}
+header nav p a																																											{margin:0 23px 0 28px; color:#fefefe; font-size:18px; line-height:32px; font-family:'Open Sans', sans-serif; text-transform:uppercase; text-decoration:none; cursor:pointer; opacity:1; -moz-transition-property:opacity; -moz-transition-duration:1s; -webkit-transition-property:opacity; -webkit-transition-duration:1s; -o-transition-property:opacity; -o-transition-duration:1s; transition-property:opacity; transition-duration:1s;}
+header nav p a:hover																																								{color:#0f2830; opacity:.6;}
 header hgroup																																												{margin:0 auto; padding:40px 0 0; width:960px; text-align:center;}
 header hgroup h1																																										{margin:0 auto 0 203px; width:487px; height:426px; display:block; background:url('../images/slime.png') no-repeat; position:relative;}
 header hgroup h1 span																																								{width:287px; height:221px; display:block; background:url('../images/logo.png') no-repeat; text-indent:-9999em; position:absolute; top:100px; left:115px;}
