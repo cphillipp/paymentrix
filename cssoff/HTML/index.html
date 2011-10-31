@@ -5,26 +5,29 @@
 	<title>UMS CSSOFF | Triple Dare</title>
 	<link rel="stylesheet" href="css/styles.css" />
 	<!--[if IE 9]>
-	<link rel="stylesheet" href="css/IE_styles.css" />
+	<link rel="stylesheet" href="css/IE9_styles.css" />
 	<![endif]-->
 	<!--[if lte IE 8]>
-	<link rel="stylesheet" href="css/IE8-6_styles.css" />
+	<link rel="stylesheet" href="css/IE8-7_styles.css" />
 	<![endif]-->
-	<!--[if lt IE 9]>
-	<script>
-	document.createElement('header');
-	document.createElement('nav');
-	document.createElement('section');
-	document.createElement('figure');
-	document.createElement('figcaption');
-	document.createElement('abbr');
-	document.createElement('footer');
-	document.createElement('hgroup');
-	</script>
-	<![endif]-->
+	<!--[if IE 6]>
+	<link rel="stylesheet" href="css/IE6_styles.css" />
+	<![endif]-->	
 	<script src="javascripts/jquery-min1.6.4.js"></script>
 	<script src="javascripts/jquery.replaceholder.js"></script>
 	<script src="javascripts/index.js"></script>
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('section');
+		document.createElement('figure');
+		document.createElement('figcaption');
+		document.createElement('abbr');
+		document.createElement('footer');
+		document.createElement('hgroup');
+	</script>
+	<![endif]-->
 </head>
 <body>
 	<header>
@@ -115,14 +118,14 @@
 					<input name="email" type="email" placeholder="Email Address" required />
 					<input name="team-name" type="text" placeholder="Team Name" required />
 					<div>
-						<select name="title" required>
+						<select name="team" required>
 						  <option value="" selected>Team Color</option>
 						  <option value="green">Green</option>
 						  <option value="blue">Blue</option>
 						</select>
 					</div>
 					<div>
-						<select name="title" required>
+						<select name="gender" required>
 						  <option value="" selected>Gender</option>
 						  <option value="male">Male</option>
 						  <option value="female">Female</option>
