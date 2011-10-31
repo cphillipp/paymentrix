@@ -13,6 +13,19 @@ $(document).ready(function() {
 		$(this).addClass("active"); //Add "active" class to selected activity
 	});
 	
+	//Countdown of the clock
+	$(function() {
+		var seconds = 60;
+		setTimeout(updateCountdown, 1000);
+		function updateCountdown() {
+			seconds--;
+			if (seconds > 0) {
+				$(".clock p").text(seconds);
+				setTimeout(updateCountdown, 1000);
+			}
+		}
+	});
+	
 	//Uses replaceholder library to fix non supporting browsers
 	$.fn.replaceholder();
 });
