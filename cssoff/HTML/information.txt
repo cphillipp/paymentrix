@@ -6,5 +6,5 @@ Address: 522 Marjorie Ave
 	 Idaho Falls, ID 83401
 
 Twitter (optional):
-Additional: Used firefox pixel perfect on a mac if it helps to check design.
+Additional: Used firefox pixel perfect. Code is pretty in textmate.
 Do not put any identifying information in your code!

@@ -1,10 +1,10 @@
-.obstacles div ul li img				{margin:24px auto; height:150px; display:block;}
+.obstacles div ul li img								{margin:24px auto; height:150px; display:block;}
 .obstacles div ul li figure figcaption	{padding:120px 0 0; min-height:120px;}
-.prizes							{height:1050px;}
-.prizes ul li						{min-height:470px;}
-.prizes ul li img					{margin:20px auto; display:block;}
-.contestant h3 span				{width:520px; height:40px; background-repeat:repeat-x; top:3px; right:0;}
-.contestant div fieldset button		{background-position:center center;}
-.contestant div fieldset div			{width:49%; height:auto;}
-.contestant div fieldset div select	{padding:0; width:100%; height:auto;}
-.contestant footer ul li				{width:50%;}
+.prizes																	{height:1050px;}
+.prizes ul li														{min-height:470px;}
+.prizes ul li img												{margin:20px auto; display:block;}
+.contestant h3 span											{width:520px; height:40px; background-repeat:repeat-x; top:3px; right:0;}
+.contestant div fieldset button					{background-position:center center;}
+.contestant div fieldset div						{width:49%; height:auto;}
+.contestant div fieldset div select			{padding:0; width:100%; height:auto;}
+.contestant footer ul li								{width:50%;}
