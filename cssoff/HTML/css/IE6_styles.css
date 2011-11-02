@@ -5,4 +5,5 @@ body														{background:#80c1d6;}
 .obstacles div ul	li						{background:#80b238;}
 .obstacles div ul	li.active			{background:#eef13f;}
 .prizes													{background:#80b238}
+.contestant											{background:#80c1d6;}
 .contestant div fieldset input	{background:#fe6638;}
