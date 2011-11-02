@@ -6,5 +6,5 @@ Address: 522 Marjorie Ave
 	 Idaho Falls, ID 83401
 
 Twitter (optional):
-Additional: Left typo unfixed in address, assuming this place is fictional!
+Additional: Used firefox pixel perfect on a mac if it helps to check design.
 Do not put any identifying information in your code!
