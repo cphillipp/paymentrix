@@ -114,25 +114,25 @@
 			</div>
 			<form id="register">
 				<fieldset>
-					<input name="your-name" type="text" placeholder="Your Name" required />
+					<input name="your-name" type="text" placeholder="Your Name" />
 					<input name="email" type="email" placeholder="Email Address" required />
-					<input name="team-name" type="text" placeholder="Team Name" required />
+					<input name="team-name" type="text" placeholder="Team Name" />
 					<div>
-						<select name="team" required>
+						<select name="team">
 						  <option value="" selected>Team Color</option>
 						  <option value="green">Green</option>
 						  <option value="blue">Blue</option>
 						</select>
 					</div>
 					<div>
-						<select name="gender" required>
+						<select name="gender">
 						  <option value="" selected>Gender</option>
 						  <option value="male">Male</option>
 						  <option value="female">Female</option>
 						</select>
 					</div>
-					<input name="photo-url" type="text" placeholder="Profile Photo URL" required>
-					<button name="submit" type="submit" id="submit" onClick="alert('Congratulations, you are on your way! Watch out for the giant waffle.');return false"><span>Submit Entry!</span></button>
+					<input name="photo-url" type="url" placeholder="Profile Photo URL" required />
+					<button name="submit" type="submit"><span>Submit Entry!</span></button>
 				</fieldset>
 			</form>
 		</div>

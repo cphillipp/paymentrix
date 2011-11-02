@@ -78,13 +78,13 @@ top:0;
 left:0;
 z-index:1;
 -moz-transition-property:background;
--moz-transition-duration:1s;
+-moz-transition-duration:500ms;
 -webkit-transition-property:background;
--webkit-transition-duration:1s;
+-webkit-transition-duration:500ms;
 -o-transition-property:background;
--o-transition-duration:1s;
+-o-transition-duration:500ms;
 transition-property:background;
-transition-duration:1s;
+transition-duration:500ms;
 }
 header nav:hover{
 background:rgba(15, 40, 48, .3);
