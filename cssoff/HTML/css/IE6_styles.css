@@ -1,9 +1,0 @@
-body														{background:#80c1d6;}
-.obstacles											{background:#fe6638;}
-.obstacles div									{height:800px;}
-.obstacles div ul								{height:800px;}
-.obstacles div ul	li						{background:#80b238;}
-.obstacles div ul	li.active			{background:#eef13f;}
-.prizes													{background:#80b238}
-.contestant											{background:#80c1d6;}
-.contestant div fieldset input	{background:#fe6638;}
