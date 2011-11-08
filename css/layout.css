@@ -64,7 +64,7 @@ header {padding:0px 0 0;position:relative; z-index:400;min-height:182px;}
 .links li a:hover {color:#fff;}
 .links span {font-size:11px;margin-top:-1px;margin-right:37px;}
 .header-bg {position:absolute;width:100%;background:url(../images/header.jpg) 0 0 repeat-x;height:76px; left:0;top:1.4375em;}
-.logo {background:url(../images/logo.png) 0 0 no-repeat;display:block;width:171px;height:47px;text-indent:-5000px;margin-top:18px;}
+.logo {background:url(../images/logo.png) 0 0 no-repeat;display:block;width:299px;height:81px;text-indent:-5000px;margin-top:18px;}
 strong.title {font-size:19px;line-height:25px;color:#181001;display:block;float:right;text-align:right;letter-spacing:-1px;padding:28px 0 0;}
 .navi {background:url(../images/navi.png) 0 0 repeat-x #ebebeb;padding:0px 0px 0px 18px;border:1px solid #f8f8f6;box-shadow:0 1px 3px rgba(0,0,0,0.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,0.2);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.2);}
 nav {float:right;}
@@ -1681,7 +1681,7 @@ a.aToolTipCloseBtn {
 .block.wrap .padding h6{white-space:normal;}
 .block.wrap .padding{min-height:200px; position:relative;}
 .block.wrap .padding .alignright{position:absolute; bottom:15px; right:22px;}
-.logo{width:207px; height:42px; background: url("../images/logo01.png") no-repeat scroll 0 0 transparent;}
+.logo{margin:3px 0 0; width:289px; height:75px; background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
 .custom table tbody td {padding:0 5px 5px 0; width:auto; background:transparent; text-align:left;}
 .custom table table tr:hover td {background-color:transparent;}
 .custom .backtop{padding:10px 0 20px;}
@@ -1690,5 +1690,10 @@ ul.left li{float:left;width:33%;}
 dl.contacts{width:auto;}
 .grid_4 ul li{padding:0 32px 0 0; float:left; overflow:hidden;}
 .grid_4 ul li a	{text-transform:uppercase; font-size:11px; color:#F15A29;}
+.special {margin:0; padding:0 0 20px;}
+.special li{}
 .container_24 .grid_4 {width:auto;}
 .container_24 .grid_14 {width:100%;}
+.left-image{margin:0; width:280px; float:left;}
+.left-image img{margin:0 auto; display:block; max-width:200px; max-height:200px;}
+h1,h2,h3,h4,h5{letter-spacing:1px; font-family:impact, arial;}
