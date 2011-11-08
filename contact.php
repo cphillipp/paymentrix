@@ -1,10 +1,3 @@
-<?php
-session_start();
-if($_SESSION['message']) {
-	$display_message = $_SESSION['message'];
-	$_SESSION['message'] = '';
-}
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -84,11 +77,6 @@ if($_SESSION['message']) {
                                 <label class="error" for="message" id="message_error">*This field is required.</label>
                                 <label class="error" for="message" id="message_error2">*The message is too short.</label>
                             </div>
-                            <?php
-															if($display_message) {
-																echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
-															}
-														?>
 														<div class="buttons-wrapper"><input type="submit" class="button" value="Send Message" /></div>					
                         </fieldset>
                     </form>
