@@ -174,7 +174,7 @@ aside li a {text-decoration:none;color:#9b9b94;line-height:24px;}
 aside li a:hover {color:#fff;text-decoration:underline;}
 
 /******************** Footer ******************/
-footer{width:100%;padding:16px 0 15px;color:#d4d4ca;overflow:hidden;background:url(../images/border.png) 0 0 repeat-x;font-size:12px;}
+footer{width:100%;padding:16px 0 15px;color:#d4d4ca;overflow:hidden;/*background:url(../images/border.png) 0 0 repeat-x;*/font-size:12px;}
 footer a {color:#d4d4ca;}
 footer a:hover {color:#fff;}
 

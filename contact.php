@@ -66,7 +66,6 @@ if($_SESSION['message']) {
                     <form method="post" action="form.php" id="contact-form">
                         <fieldset>
                             <input type="hidden" name="owner_email" id="owner_email" value="admin@demolink.org" />
-
                             <input type="hidden" name="serverProcessorType" id="serverProcessorType" value="php" />
                             <input type="hidden" name="smtpMailServer" id="smtpMailServer" value="localhost" />
                             <input type="hidden" name="stripHTML" id="stripHTML" value="true" />
@@ -91,14 +90,13 @@ if($_SESSION['message']) {
                                 <textarea name="message" id="message" class="text-input" onFocus="if(this.value=='Message:'){this.value=''}" onBlur="if(this.value==''){this.value='Message:'}">Message:</textarea>
                                 <label class="error" for="message" id="message_error">*This field is required.</label>
                                 <label class="error" for="message" id="message_error2">*The message is too short.</label>
-                            </div>                                
-                            
-							<?php
-								if($display_message) {
-									echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
-								}
-							?>
-								<div class="buttons-wrapper"><input type="submit" class="button" value="Send Message" /></div>					
+                            </div>
+                            <?php
+															if($display_message) {
+																echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
+															}
+														?>
+														<div class="buttons-wrapper"><input type="submit" class="button" value="Send Message" /></div>					
                         </fieldset>
                     </form>
                 </div>

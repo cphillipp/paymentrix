@@ -70,9 +70,7 @@ jQuery.extend({
 					width: 934, // width of slider panel
 					height: 348 // height of slider panel
 				});
-			}	
-			//superfish menu init
-			jQuery('ul.sf-menu').superfish();				
+			}				
 			// initiate tool tip
 			// basic usage  
 			$('.normaltip').aToolTip(); 				
