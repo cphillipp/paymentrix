@@ -129,8 +129,6 @@ if($_SESSION['message']) {
 <!--==============================footer=================================-->
 	<footer>
 		Mirage &nbsp;&copy; 2011 &nbsp; &nbsp;| &nbsp; &nbsp;<a href="index-6.html">Privacy Policy</a>
-
-        <!-- {%FOOTER_LINK} -->
 	</footer>
 </div>
 </body>
