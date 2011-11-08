@@ -70,18 +70,7 @@ jQuery.extend({
 					width: 934, // width of slider panel
 					height: 348 // height of slider panel
 				});
-			}				
-			// initiate tool tip
-			// basic usage  
-			$('.normaltip').aToolTip(); 				
-			// fixed tooltip  
-			$('.fixedtip').aToolTip({  
-				fixed: true  
-			});
-			$('.clicktip').aToolTip({  
-				clickIt: true,  
-				tipContent: 'Hello I am aToolTip with content from param'  
-			});			
+			}		
 			if ($("#demo6").length) {
 				$("#demo6").floatdialog("dialog6", {move: 'down', effect: false});
 			};		
