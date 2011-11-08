@@ -93,13 +93,7 @@ jQuery.extend({
 			// slideDown
 			$(".slideDown dt").click(function(){
 				$(this).toggleClass("active").parent(".slideDown").find("dd").slideToggle();
-			});			
-			// kwicks gallery
-			$('.kwicks').kwicks({
-				max : 800,
-				spacing : 0,
-				event : 'mouseover'
-			});			
+			});	
 			///// code grabber ////////////
 			$(".code a.code-icon").toggle(function(){
 				$(this).find("i").text("-");
