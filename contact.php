@@ -1,8 +1,8 @@
 <?php
 session_start();
-$_SESSION['message'] = '';
 if($_SESSION['message']) {
 	$display_message = $_SESSION['message'];
+	$_SESSION['message'] = '';
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
