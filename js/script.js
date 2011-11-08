@@ -63,24 +63,6 @@ jQuery.extend({
 	}
 });
 ///// include js files ////////////
-$.include('js/coin-slider.js');
-$.include('js/floatdialog.js');
-$.include('js/superfish.js');
-$.include('js/atooltip.jquery.js');
-$.include('js/runonload.js');
-$.include('js/contact-form.js');
-$.include('js/scrollTop.js');
-$.include('js/flashobject.js');
-$.include('js/tabs.js');
-$.include('js/hover-image.js');
-$.include('js/jquery.prettyPhoto.js');
-$.include('js/jquery.galleriffic.js');
-$.include('js/jquery.opacityrollover.js');
-$.include('js/jquery.twitter.search.js');
-$.include('js/jquery.cycle.all.latest.js');
-$.include('js/kwicks-1.5.1.pack.js');
-$.include('js/jquery.equalheights.js');
-$.include('js/jquery.easing.1.3.js');			
 		$(document).ready(function() {				
 			// coin slider
 			if ($("#coin-slider").length) {
