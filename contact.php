@@ -14,13 +14,6 @@ if($_SESSION['message']) {
 	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/coin-slider.min.js"></script>
-	<!--[if lt IE 7]>
-  		<div style=' clear: both; text-align:center; position: relative;'> <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" alt="" /></a></div>  
- 	<![endif]-->
-    <!--[if lt IE 9]>
-   		<script type="text/javascript" src="js/html5.js"></script>
-  		<link rel="stylesheet" href="css/ie.css" type="text/css" media="all"> 
-	<![endif]-->
 	<title>Paymentrix | Home</title>
 </head>
 <body>
