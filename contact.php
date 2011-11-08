@@ -94,13 +94,13 @@ if($_SESSION['message']) {
                                 <label class="error" for="message" id="message_error">*This field is required.</label>
                                 <label class="error" for="message" id="message_error2">*The message is too short.</label>
                             </div>                                
-                            <div class="buttons-wrapper"><a id="submit" class="button">Send Message</a></div>
+                            
 							<?php
 								if($display_message) {
-									echo "<a name='bottom' class='thank-you'>" . $display_message . "</a>";
+									echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
 								}
 							?>
-							<input type="submit" class="" value="submit" />
+								<div class="buttons-wrapper"><input type="submit" class="button" value="Send Message" /></div>					
                         </fieldset>
                     </form>
                 </div>
