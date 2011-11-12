@@ -1670,7 +1670,7 @@ a.aToolTipCloseBtn {
 
 /* CUSTOM */
 .block.custom{width:146px;}
-.block.custom .padding{min-height:230px; position:relative;}
+.block.custom .padding{min-height:210px; position:relative;}
 .block.custom .padding h6{white-space:normal;}
 .block.custom .padding img{max-width:100px; max-height:100px;}
 .block.custom .padding .image{margin:0; padding:0; height:140px;}
