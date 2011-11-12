@@ -1383,9 +1383,9 @@ a.aToolTipCloseBtn {
 .cs-prev:hover {background:url(../images/prev.png) 50% 50% no-repeat #e55729;}
 .cs-next {background:url(../images/next.png) 50% 50% no-repeat #ebebeb; width:29px; height:55px;border-radius:0 28px 28px 0;-moz-border-radius:0 28px 28px 0;-webkit-border-radius:0 28px 28px 0;box-shadow:0 1px 3px rgba(0,0,0,0.2);-moz-box-shadow:0 1px 3px rgba(0,0,0,0.2);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.2);}
 .cs-next:hover {background:url(../images/next.png) 50% 50% no-repeat #e55729;}
-.cs-title {right:-360px;width:360px;font-size:44px;color:#f5ffa8;letter-spacing:-1px;top:200px;line-height:1.2em;}
-.cs-title em {display:inline-block;margin-left:25px;color:#b5ff99;font-size:30px;font-style:normal;}
-.cs-title strong {color:#f5ffa8;font-size:36px;font-weight:normal;display:inline-block;}
+.cs-title {margin:0 0 0 10px; right:-360px;width:360px;font-size:44px;color:#000;letter-spacing:-1px;top:200px;line-height:1.2em;}
+.cs-title em {display:inline-block;margin-left:25px;color:#666;font-size:30px;font-style:normal;}
+.cs-title strong {color:#000;font-size:36px;font-weight:normal;display:inline-block;}
 .cs-buttons { display:none; }
 
 /* Gallery */
