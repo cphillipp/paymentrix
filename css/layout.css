@@ -1681,7 +1681,7 @@ a.aToolTipCloseBtn {
 .block.wrap .padding h6{white-space:normal;}
 .block.wrap .padding{min-height:200px; position:relative;}
 .block.wrap .padding .alignright{position:absolute; bottom:15px; right:22px;}
-.logo{margin:3px 0 0; width:289px; height:75px; background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
+.logo{margin:12px 0 0; width:263px; height:53px; background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
 .custom table tbody td {padding:0 5px 5px 0; width:auto; background:transparent; text-align:left;}
 .custom table table tr:hover td {background-color:transparent;}
 .custom .backtop{padding:10px 0 20px;}
