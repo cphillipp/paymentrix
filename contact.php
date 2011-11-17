@@ -85,11 +85,11 @@ if($_SESSION['message']) {
                                 <label class="error" for="message" id="message_error2">*The message is too short.</label>
                             </div>
                             <?php
-															if($display_message) {
-																echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
-															}
-														?>
-														<div class="buttons-wrapper"><input type="submit" class="button" value="Send Message" /></div>					
+								if(isset($display_message)) {
+								    echo "<p name='bottom' class='thank-you'>" . $display_message . "</p>";
+								}
+							?>
+							<div class="buttons-wrapper"><input type="submit" class="button" value="Send Message" /></div>					
                         </fieldset>
                     </form>
                 </div>
