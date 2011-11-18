@@ -117,7 +117,7 @@ if($_SESSION['message']) {
 <div class="main">
 <!--==============================footer=================================-->
 	<footer>
-		Mirage &nbsp;&copy; 2011 &nbsp; &nbsp;| &nbsp; &nbsp;<a href="index-6.html">Privacy Policy</a>
+		Paymentrix &nbsp;&copy; 2011 &nbsp; &nbsp;| &nbsp; &nbsp;<a href="index-6.html">Privacy Policy</a>
 	</footer>
 </div>
 </body>

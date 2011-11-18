@@ -56,7 +56,7 @@ p {margin-bottom:18px; font-size:15px; line-height:24px;}
 /*********************************header*************************************/
 header {padding:0px 0 0;position:relative; z-index:400;min-height:182px;}
 .links {background:#23231c;overflow:hidden;text-align:right;text-transform:uppercase;color:#9b9b94;margin-bottom:34px;}
-.links .main {font-size:10px;line-height:23px;vertical-align:middle;}
+.links .main {font-size:10px;line-height:23px;vertical-align:middle; color:#88b0c5;}
 .links ul {float:left;}
 .links li {float:left;margin-right:16px;padding-right:17px;background:url(../images/links-bg.gif) 100% 50% no-repeat;}
 .links li.last {background:none;padding:0;margin:0;}
