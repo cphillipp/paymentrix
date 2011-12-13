@@ -49,7 +49,7 @@ if($_SESSION['message']) {
                     <dd><span>Toll-Free:</span> +1 877 292 0521</dd>
                     <dd><span>Telephone:</span> +1 208 495 3284 ext. 100</dd>
                     <dd><span>FAX:</span> +1 866 548 0686</dd>
-                    <dd><span>E-mail:</span> <a class="" href="mailto:thedeansta@gmail.com">info@paymentrix.com</a></dd>
+                    <dd><span>E-mail:</span> <a class="" href="mailto:info@paymentrix.com">info@paymentrix.com</a></dd>
 
                 </dl>
             </article>

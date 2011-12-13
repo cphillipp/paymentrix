@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $to = "thedeansta@gmail.com";
+    $to = "info@paymentrix.com";
     $subject = "Contact Us";
     $email = $_POST['email'];
     $message = $_POST['message'];
